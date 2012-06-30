@@ -14,7 +14,7 @@ def least_common (month,day,year,dow,jackpot):
  
  try:
  
-  con = mdb.connect('localhost', 'jmat_viewer', 'a~@DVv4-P4ma', 'jmat_pb');
+  con = mdb.connect('', '', '', '');
   cur = con.cursor()
 
   Msql=""
